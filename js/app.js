@@ -27,8 +27,8 @@ const cargarDioses = gods => {
                 <p class="name-dios">${e.name.toUpperCase()}</p>
             </div>
             <div class="box-rolpan-dios">
-                <img src="../assets/roles/${e.rol}.jpg" alt="" class="dato-dios">
-                <img src="../assets/panteones/${e.panteon}.jpg" alt="" class="dato-dios">
+                <img src="./assets/roles/${e.rol}.jpg" alt="" class="dato-dios">
+                <img src="./assets/panteones/${e.panteon}.jpg" alt="" class="dato-dios">
             </div>
         </div>`
 
