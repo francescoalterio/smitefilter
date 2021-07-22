@@ -33,4 +33,4 @@ self.addEventListener('fetch', e => {
         caches.match(e.request)
             .then( respuestaCache => respuestaCache
     )
-})
+)})
